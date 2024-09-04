@@ -15,6 +15,6 @@ app.use("/aluguel", aluguel_router)
 
 
 app.listen(port, () => {
-    console.log(`Server running in ${port} port`)
+    console.log(`Server running in http://localhost:${port} port`)
 })
 //deu certo
